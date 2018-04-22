@@ -1,0 +1,142 @@
+
+<header>
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" routerLink="/" class="brand-logo">Каталог</a>
+      <ul class="right hide-on-med-and-down">
+        <li class="bold" routerLinkActive="active"><a routerLink="/">Главная</a></li>
+        <li class="bold" routerLinkActive="active"><a routerLink="/1">Акции</a></li>
+        <li class="bold" routerLinkActive="active"><a routerLink="/2">Кредит</a></li>
+        <li class="bold" routerLinkActive="active"><a routerLink="/3">Доставка и оплата</a></li>
+        <li class="bold" routerLinkActive="active"><a routerLink="/4">Гарантия</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li class="bold" routerLinkActive="active"><a routerLink="/">Главная</a></li>
+        <li class="bold" routerLinkActive="active"><a routerLink="/1">Акции</a></li>
+        <li class="bold" routerLinkActive="active"><a routerLink="/2">Кредит</a></li>
+        <li class="bold" routerLinkActive="active"><a routerLink="/3">Доставка и оплата</a></li>
+        <li class="bold" routerLinkActive="active"><a routerLink="/4">Гарантия</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+</header>
+
+<main class="container">
+  <div class="section no-pad-bot" id="index-banner">
+    <!--<div class="row">
+      <div class="col s12">
+        <div class="row">
+          <div class="input-field col s12">
+            <i class="material-icons prefix">search</i>
+            <input type="text" id="search" class="autocomplete">
+            <label for="search">Поиск товаров</label>
+          </div>
+        </div>
+      </div>
+    </div>-->
+    <div class="row">
+      <div class="input-field col s12">
+        <i class="material-icons prefix">search</i>
+        <input type="text" id="search" class="autocomplete">
+        <label for="search">Поиск товаров</label>
+      </div>
+    </div>
+
+
+    <!--<div class="row">
+      <div class="col m5 s12 modelsearch">
+        <div class="input-field col s12">
+          <input type="text" name="term" id="search" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Поиск товаров" value="" class="ui-autocomplete-input" autocomplete="off">
+          <label for="search"><i class="fa fa-search"></i></label>
+        </div>
+      </div>
+    </div>-->
+    <router-outlet></router-outlet>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="row">
+    <div class="col s12 m6 l4">
+      <div class="icon-block">
+        <h5 class="center">Техника Samsung</h5>
+        <p class="light">Технологии <br/> и комфорт</p>
+        <h2 class="center light-blue-text"><img class="responsive-img" src="https://i.allo.ua/media/promoblockitem/_1.jpg" alt="Техника Samsung"></h2>
+      </div>
+    </div>
+
+    <div class="col s12 m6 l4">
+      <div class="icon-block">
+        <h5 class="center">Устройства Apple</h5>
+        <p class="light">Непревзойденность <br/> стиля</p>
+        <h2 class="center light-blue-text"><img class="responsive-img" src="https://i.allo.ua/media/promoblockitem/_2_.jpg" alt="Устройства Apple"></h2>
+      </div>
+    </div>
+
+    <div class="col s12 m6 l4">
+      <div class="icon-block">
+        <h5 class="center">Мир Xiaomi</h5>
+        <p class="light">Современная экосистема</p>
+        <h2 class="center light-blue-text"><img class="responsive-img" src="https://i.allo.ua/media/promoblockitem/_3.jpg" alt="Мир Xiaomi">
+        </h2>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="page-footer orange">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <div class="logos">
+          <h5 class="white-text">Официальные представители:</h5>
+          <p class="grey-text text-lighten-4">
+            <img src="https://i.allo.ua/media/Banner_Home/Apple_f.png" alt="">
+          </p>
+          <h5 class="white-text">Мы принимаем:</h5>
+          <p class="grey-text text-lighten-4">
+            <img
+              style="background: transparent url(https://i.allo.ua/skin/frontend/enterprise/allov2/images/sprite-all.png) no-repeat; background-position: -377px 0; margin-right: 17px; width: 42px;height: 27px;"
+              alt="">
+          </p>
+          <p class="grey-text text-lighten-4">© ООО “Рога и Копыта” 1918-2018.</p>
+          <p class="grey-text text-lighten-4">Все права защищены.</p>
+        </div>
+      </div>
+
+      <div class="col l3 s12">
+        <h5 class="white-text">Помощь</h5>
+        <ul>
+          <li><a class="white-text" routerLink="/">Вопросы и ответы</a></li>
+          <li><a class="white-text" routerLink="/">Доставка и оплата</a></li>
+          <li><a class="white-text" routerLink="/">Гарантия и сервисные центры</a></li>
+          <li><a class="white-text" routerLink="/">Купить в кредит</a></li>
+          <li><a class="white-text" routerLink="/">Карта сайта</a></li>
+          <li><a class="white-text" routerLink="/">Статьи и обзоры</a></li>
+          <li><a class="white-text" routerLink="/">Оставьте отзыв о нашей работе</a></li>
+        </ul>
+      </div>
+
+      <div class="col l3 s12">
+        <h5 class="white-text">Полезная информация</h5>
+        <ul>
+          <li><a class="white-text" routerLink="/">Сервисы</a></li>
+          <li><a class="white-text" routerLink="/">Как покупать в интернет-магазине</a></li>
+          <li><a class="white-text" routerLink="/">Корзина</a></li>
+          <li><a class="white-text" routerLink="/">Просмотренные товары</a></li>
+          <li><a class="white-text" routerLink="/">Подарочная карта</a></li>
+          <li><a class="white-text" routerLink="/">Мобильная версия</a></li>
+          <li><a class="white-text" routerLink="/">Страхование платежных карт</a></li>
+          <li><a class="white-text" routerLink="/">Электронная газета</a></li>
+          <li><a class="white-text" routerLink="/">Юридический онлайн-сервис</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+    </div>
+  </div>
+</footer>

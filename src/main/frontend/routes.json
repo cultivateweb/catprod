@@ -1,0 +1,7 @@
+{
+  "/api/*":             "/$1",
+  "/producers":         "/Producers",
+  "/categories/:alias": "/Categories?Alias=:alias",
+  "/categories/:id":    "/Categories?ParentID=:id",
+  "/categories":        "/Categories?Depth=0"
+}

@@ -1,0 +1,34 @@
+{
+  "Producers": [
+    { "ID": 1, "Alias": "samsung", "Name": "Samsung", "Image": "" },
+    { "ID": 2, "Alias": "lg",      "Name": "LG",      "Image": "" },
+    { "ID": 3, "Alias": "philips", "Name": "Philips", "Image": "" },
+    { "ID": 4, "Alias": "sony",    "Name": "Sony",    "Image": "" },
+    { "ID": 5, "Alias": "apple",   "Name": "Apple",   "Image": "" },
+    { "ID": 6, "Alias": "xiaomi",  "Name": "Xiaomi",  "Image": "" }
+  ],
+
+  "Categories": [
+    { "ID": 1,  "ParentID": null, "Depth": 0, "Alias": "krupnaya-bytovaya-tekhnika", "Name": "Крупная бытовая техника", "Image": "https://comfy.ua/media/cms/cat_1/xholod.png.pagespeed.ic.1QwGG5A1_U.webp" },
+    { "ID": 2,  "ParentID": null, "Depth": 0, "Alias": "melkaya-bytovaya-tekhnika",  "Name": "Мелкая бытовая техника",  "Image": "https://comfy.ua/media/cms/cat_1/xpilesos.png.pagespeed.ic.ZmqI9xwWyA.webp" },
+    { "ID": 3,  "ParentID": null, "Depth": 0, "Alias": "televizory-i-aksessuary",    "Name": "Телевизоры и аксессуары", "Image": "https://comfy.ua/media/cms/xtv.png.pagespeed.ic.RB-ioyEpiM.webp" },
+    { "ID": 4,  "ParentID":    1, "Depth": 1, "Alias": "kholodilniki",               "Name": "Холодильники",            "Image": "https://comfy.ua/media/cms/cat_1/xholod.png.pagespeed.ic.1QwGG5A1_U.webp" },
+    { "ID": 5,  "ParentID":    1, "Depth": 1, "Alias": "stiralnyye-mashiny",         "Name": "Стиральные машины",       "Image": "https://comfy.ua/media/cms/cat_1/xstiral.png.pagespeed.ic.QupaTPXVDY.webp" },
+    { "ID": 6,  "ParentID":    1, "Depth": 1, "Alias": "gazovyye-plity",             "Name": "Газовые плиты",           "Image": "https://comfy.ua/media/cms/cat_1/xplita.png.pagespeed.ic.nTLJJPwZ45.webp" },
+    { "ID": 7,  "ParentID":    2, "Depth": 1, "Alias": "pylesosy",                   "Name": "Пылесосы",                "Image": "https://comfy.ua/media/cms/cat_1/xpilesos.png.pagespeed.ic.ZmqI9xwWyA.webp" },
+    { "ID": 8,  "ParentID":    2, "Depth": 1, "Alias": "elektrochayniki",            "Name": "Электрочайники",          "Image": "https://comfy.ua/media/cms/cat_5/xelectric_teapots.png.pagespeed.ic.g2z24ERB3M.webp" },
+    { "ID": 9,  "ParentID":    3, "Depth": 1, "Alias": "televizory",                 "Name": "Телевизоры",              "Image": "https://comfy.ua/media/cms/xtv.png.pagespeed.ic.RB-ioyEpiM.webp" },
+    { "ID": 10, "ParentID":    3, "Depth": 1, "Alias": "akustika-hifi",              "Name": "Акустика Hi-Fi",          "Image": "https://comfy.ua/media/cms/cat_2/xportkolonka.png.pagespeed.ic.BtP6xhFj91.webp" },
+    { "ID": 11, "ParentID":    3, "Depth": 1, "Alias": "domashniye-kinoteatry",      "Name": "Домашние кинотеатры",     "Image": "https://comfy.ua/media/cms/cat_1/Home_theaters.png" },
+    { "ID": 12, "ParentID":    3, "Depth": 1, "Alias": "dvd-hd-mediapleyery",        "Name": "DVD/HD-медиаплееры",      "Image": "https://comfy.ua/media/cms/cat_1/xMedia_Players.png.pagespeed.ic.JWIWfa7qm7.webp" },
+    { "ID": 13, "ParentID":    3, "Depth": 1, "Alias": "aksessuary",                 "Name": "Аксессуары",              "Image": "https://comfy.ua/media/cms/cat_1/Accessories_for_Smart_TV.png" }
+  ],
+
+  "Products": [
+    {"ID": 1, "ProducerID": 1, "CategoryID": 4, "Alias": "samsung-rt46k6340s8-ua", "Name": "Холодильник Samsung RT46K6340S8/UA", "Image": "https://cdn.comfy.ua/media/catalog/product/cache/4/small_Image/270x265/62defc7f46f3fbfc8afcd112227d1181/i/m/img_0228_1.jpg",                "Price": 14699.99, "Description": "Объём холодильной камеры 223 л,  Класс энергопотребления: A++",               "Exist": true},
+    {"ID": 2, "ProducerID": 1, "CategoryID": 4, "Alias": "samsung-rb33j3201sa-ua", "Name": "Холодильник Samsung RB33J3201SA/UA", "Image": "https://cdn.comfy.ua/media/catalog/product/cache/4/small_Image/270x265/62defc7f46f3fbfc8afcd112227d1181/_/s/_samsung_rb33j3201sa-ua_1.jpg", "Price": 14299.99, "Description": "С морозильной камерой, Класс энергопотребления: A++",                         "Exist": false},
+    {"ID": 3, "ProducerID": 2, "CategoryID": 4, "Alias": "lg-rk6191aw",            "Name": "Холодильник LG RK 6191 AW",          "Image": "https://cdn.comfy.ua/media/catalog/product/cache/4/small_Image/270x265/62defc7f46f3fbfc8afcd112227d1181/g/o/gorenje_rk_6191_aw.jpg",        "Price": 10199.99, "Description": "С нижней морозильной камерой, Класс энергопотребления: A+",                   "Exist": true},
+    {"ID": 4, "ProducerID": 2, "CategoryID": 4, "Alias": "lg-ga-b429smqz",         "Name": "Холодильник LG GA-B429SMQZ",         "Image": "https://cdn.comfy.ua/media/catalog/product/cache/4/small_Image/270x265/62defc7f46f3fbfc8afcd112227d1181/l/g/lg_ga-b429smqz.jpg",            "Price": 14599.99, "Description": "Система охлаждения морозильной камеры No Frost, Класс энергопотребления: A++","Exist": false}
+  ]
+
+}
